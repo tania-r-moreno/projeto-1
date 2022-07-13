@@ -1,1 +1,2 @@
-Olá, meu nome é tania moreno
+Olá, meu nome é Tania Moreno e sou iniciante em python
+e estou aprendendo a postar no Github.
