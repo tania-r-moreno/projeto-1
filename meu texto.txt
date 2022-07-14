@@ -1,1 +1,2 @@
-Olá, meu nome é tania moreno
+Olá, meu nome é tania moreno,iniciante de python e
+aprendendo usar repositório e branch no github
