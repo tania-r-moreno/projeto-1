@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 Olá, meu nome é tania moreno,iniciante de python e
 aprendendo usar repositório e branch no github
+=======
+Olá, meu nome é tania moreno, estou aprendendo python e 
+também a usar o repositório Github.
+>>>>>>> caf110d901158d8c3db28988bc09f5639f4ee64e
