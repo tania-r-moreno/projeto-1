@@ -1,0 +1,36 @@
+r = 'S'
+while r == 'S':
+      
+    produto = input ('Qual o nome do produto? ')
+    categoria = input ('Qual a categoria? ')
+    quantidade = input ('Qual a quantidade? ')
+  
+    alimentos = 50
+    bebidas = 75
+    limpeza = 30
+
+    if produto and categoria and quantidade:
+        quantidade = int (quantidade)
+
+ 
+        if categoria.lower() == 'alimentos' and quantidade < alimentos:       
+            print ('Solicitar {} a equipe de compras responsável, temos apenas {} un em estoque.'.format (produto, quantidade))
+   
+        
+        if categoria.lower() == 'bebidas' and quantidade < bebidas :
+            print ('Solicitar {} a equipe de compras responsável, temos apenas {} un em estoque.'.format (produto, quantidade))
+        
+        if categoria.lower() == 'limpeza' and quantidade < limpeza :
+            print ('Solicitar {} a equipe de compras responsável, temos apenas {} un em estoque.'.format (produto, quantidade))
+        
+        else:
+            print ('Produto computado corretamente')
+
+    
+    else:
+        print ('Preencha os dados corretamente')
+    
+    r = str (input ('Quer Continuar? [S/N] ')).upper()
+
+print ('Fim')
+        
